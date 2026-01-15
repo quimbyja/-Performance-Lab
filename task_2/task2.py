@@ -1,5 +1,8 @@
 import sys
-
+"""
+Команлда в консоль для запуска:
+python3 task2.py ellipse.txt dots.txt
+"""
 class Ellipse:
     def __init__(self):
         self.ellipse_file = sys.argv[1]
