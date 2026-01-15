@@ -3,11 +3,15 @@ import sys
 Команлда в консоль для запуска:
 python3 task2.py ellipse.txt dots.txt
 """
+
+
 class Ellipse:
+    """
+    Docstring для Ellipse
+    """
     def __init__(self):
         self.ellipse_file = sys.argv[1]
         self.dots_file = sys.argv[2]
-
 
     def read_ellipse(self):
         with open(self.ellipse_file, "r", encoding="utf-8") as file:
